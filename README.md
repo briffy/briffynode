@@ -31,6 +31,7 @@ Paste the provided text into a file stored in **/home/sojourner/sojourner/cookie
 
 Set it to run as a service (systemd):
 ```
+cd ~/sojourner
 sudo cp ~/systemd/sojourner.service /etc/systemd/system
 sudo systemctl daemon-reload
 sudo systemctl enable sojourner
