@@ -136,7 +136,7 @@ def scan_subdirectories_parallel(url):
         redirect = False
         response = requests.get(url['Value'], verify=False)
 
-        for history in respose.history:
+        for history in response.history:
             if history.status_code == 302:
                 redirect = True
 
