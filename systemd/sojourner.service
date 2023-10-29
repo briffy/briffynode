@@ -7,8 +7,8 @@ User=sojourner
 Group=sojourner
 Type=simple
 Restart=always
-WorkingDirectory=/home/sojourner
-ExecStart=/usr/bin/python3 /home/sojourner/worker.py
+WorkingDirectory=/home/sojourner/sojourner
+ExecStart=/usr/bin/python3 /home/sojourner/sojourner/worker.py
 
 [Install]
 WantedBy=multi-user.target

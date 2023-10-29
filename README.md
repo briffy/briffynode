@@ -25,7 +25,7 @@ git clone https://github.com/briffy/sojourner
 
 Login to your node account on Sojourner and copy your API key by clicking on the key icon next to the logout icon.
 
-Paste the provided text into a file stored in **/home/sojourner/cookie**
+Paste the provided text into a file stored in **/home/sojourner/sojourner/cookie**
 
 **Please note**:  these steps will need to be carried out every 30 days for the time being.
 
