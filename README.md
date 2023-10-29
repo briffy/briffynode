@@ -37,6 +37,13 @@ sudo systemctl enable sojourner
 sudo systemctl start sojourner
 ```
 
+If you get a permissions related error when trying to start the service then make sure it is owned by root and permissions are set correctly:
+
+```
+sudo chown root:root /etc/systemd/system/sojourner.service
+sudo chmod 755 /etc/systemd/system/sojourner.service
+```
+
 You can keep an eye on the logs with:
 ```
 sudo journalctl -f -u sojourner
