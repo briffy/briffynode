@@ -1,0 +1,14 @@
+[Unit]
+Description=Sojourner scanning node
+After=multi-user.target
+
+[Service]
+User=sojourner
+Group=sojourner
+Type=simple
+Restart=always
+WorkingDirectory=/home/sojourner
+ExecStart=/usr/bin/python3 /home/sojourner/worker.py
+
+[Install]
+WantedBy=multi-user.target
