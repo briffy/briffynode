@@ -20,7 +20,7 @@ sudo su sojourner
 Clone the repository into the home directory:
 ```
 cd ~
-git clone 
+git clone https://github.com/briffy/sojourner
 ```
 
 Login to your node account on Sojourner and copy your API key by clicking on the key icon next to the logout icon.
