@@ -24,10 +24,11 @@ git clone https://github.com/briffy/sojourner
 ```
 **Please note**:  the following two steps will need to be carried out every 30 days to re-authenticate your account for the time being.
 
+```
 Login to your node account on Sojourner and copy your API key by clicking on the key icon next to the logout icon.
 
 Paste the provided text into a file stored in **/home/sojourner/sojourner/cookie**
-
+```
 
 Set it to run as a service (systemd):
 ```
